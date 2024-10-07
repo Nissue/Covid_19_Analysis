@@ -14,3 +14,24 @@ Numpy: For numerical operations.
 Matplotlib and Seaborn: For data visualization, particularly bar charts and line plots.
 Plotly Express: For interactive visualizations like pie charts.
 Datetime: For handling date formats.
+
+# Main Steps
+1. Data Cleaning
+Removed extra columns we didn’t need.
+Changed the date format so we could analyze the data by day.
+Filtered the data to focus on important parts like active cases and vaccination numbers.
+2. COVID-19 Case Analysis
+Found the number of active cases by subtracting recoveries and deaths from total confirmed cases.
+Created a table showing confirmed cases, deaths, and recoveries by state.
+Calculated the Recovery Rate and Mortality Rate for each state.
+Identified the top 10 states with the most active cases and highest deaths, using bar charts.
+3. Vaccination Analysis
+Cleaned up the vaccination data and renamed some columns for easier reading.
+Compared the number of vaccines given to males and females using a pie chart.
+Found the top 6 states with the highest vaccinations and showed them in a bar chart.
+4. Growth Trend
+Made a line chart showing how the number of active cases grew over time for the top 5 states most affected by COVID-19.
+Visualizations
+Bar charts for top states by active cases, deaths, and vaccinations.
+A pie chart showing the split between male and female vaccinations.
+Line charts showing how cases grew in major states.
